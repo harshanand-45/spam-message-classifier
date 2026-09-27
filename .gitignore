@@ -1,0 +1,17 @@
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# nltk data (downloaded automatically, no need to commit)
+nltk_data/
+
+# model artifacts (can be regenerated with train.py)
+models/*.pkl
+models/*.png
+
+# os/editor junk
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
